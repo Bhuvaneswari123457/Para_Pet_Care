@@ -1,1 +1,4 @@
-# Para_Pet_Care
+A robust, console-based Java application designed for a small local pet care service to help pet owners stay on top of their pets' health and schedules. The application allows users to register pets, log appointments (vet visits, vaccinations, grooming), track upcoming tasks, check past histories, and persistently store data using Java File I/O.
+📋 FeaturesPet Registration: Create unique pet profiles with error-validated inputs handling unique IDs, age formats, and registration dates.  Appointment Scheduling: Log upcoming tasks with specific types, notes, and fully formatted dates/times.  Interactive Console UI: User-friendly loop construct menu for seamless application navigation. 
+Data Persistence: Automatic file operations (loadData on startup and storeData on exit) to ensure records are safely preserved.  Smart Reports: Quickly generate reports highlighting pets with upcoming appointments in the next week, or those overdue for a vet visit by 6 months. 
+🏗️ System Architecture & Class DesignThe project strictly adheres to core Object-Oriented Programming (OOP) and encapsulation principles to protect data integrity. 
